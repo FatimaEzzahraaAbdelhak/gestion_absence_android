@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sis"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.sis.ConsultAbsence" />
+        <activity android:name="com.example.sis.FicheAppel" />
+        <activity android:name="com.example.sis.AjouterEtudiant" />
+        <activity
+            android:name="com.example.sis.Profile"
+            android:label="@string/profile" />
+        <activity
+            android:name="com.example.sis.Login"
+            android:label="@string/login_title" >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:label="@string/app_name" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sis.MainActivity"
+            android:label="@string/main_title" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.sis.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.sis.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

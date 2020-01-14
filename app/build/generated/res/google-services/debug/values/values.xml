@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">113760156728-kbruqeneh6v50in7gs1nkc53pfb3gv8v.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gestion-absence-6448d.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">113760156728</string>
+    <string name="google_api_key" translatable="false">AIzaSyBj-mgO-i2X0Vw1G5QjR2GZGVIS7eM3G-A</string>
+    <string name="google_app_id" translatable="false">1:113760156728:android:8e0fb79a5a08518ba83acd</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBj-mgO-i2X0Vw1G5QjR2GZGVIS7eM3G-A</string>
+    <string name="google_storage_bucket" translatable="false">gestion-absence-6448d.appspot.com</string>
+    <string name="project_id" translatable="false">gestion-absence-6448d</string>
+</resources>

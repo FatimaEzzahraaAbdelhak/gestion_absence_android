@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "113760156728",
+    "firebase_url": "https://gestion-absence-6448d.firebaseio.com",
+    "project_id": "gestion-absence-6448d",
+    "storage_bucket": "gestion-absence-6448d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113760156728:android:8e0fb79a5a08518ba83acd",
+        "android_client_info": {
+          "package_name": "com.example.sis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113760156728-0h8rt3d6e5d81gorpb05fe404ufhb46b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sis",
+            "certificate_hash": "56f76b2554aedfec87bbe3cf31facea907ccc645"
+          }
+        },
+        {
+          "client_id": "113760156728-kbruqeneh6v50in7gs1nkc53pfb3gv8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj-mgO-i2X0Vw1G5QjR2GZGVIS7eM3G-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113760156728-kbruqeneh6v50in7gs1nkc53pfb3gv8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sis"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:9:5-37:19
+16        android:allowBackup="true"
+16-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\16eb53875ba78320b1fcf5cac2c4c8c7\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:12:9-41
+21        android:networkSecurityConfig="@xml/network_security_config"
+21-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:13:9-69
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:16:9-40
+26        <activity android:name="com.example.sis.ConsultAbsence" />
+26-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:17:9-61
+26-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:17:19-49
+27        <activity android:name="com.example.sis.FicheAppel" />
+27-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:18:9-48
+27-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:18:19-45
+28        <activity android:name="com.example.sis.AjouterEtudiant" />
+28-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:19:9-53
+28-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:19:19-50
+29        <activity
+29-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:20:9-22:47
+30            android:name="com.example.sis.Profile"
+30-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:21:13-36
+31            android:label="@string/profile" />
+31-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:22:13-44
+32        <activity
+32-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:23:9-33:20
+33            android:name="com.example.sis.Login"
+33-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:24:13-34
+34            android:label="@string/login_title" >
+34-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:25:13-48
+35            <intent-filter>
+35-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:26:13-32:29
+36                <action
+36-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:27:17-29:56
+37                    android:name="android.intent.action.MAIN"
+37-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:28:21-62
+38                    android:label="@string/app_name" />
+38-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:29:21-53
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:31:17-77
+40-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:34:9-36:50
+44            android:name="com.example.sis.MainActivity"
+44-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:35:13-41
+45            android:label="@string/main_title" />
+45-->C:\Users\Asus\AndroidStudioProjects\GABS\SIS\app\src\main\AndroidManifest.xml:36:13-47
+46        <activity
+46-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\327f93e5aca5059d42c8e48be2a933fa\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\327f93e5aca5059d42c8e48be2a933fa\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\327f93e5aca5059d42c8e48be2a933fa\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\327f93e5aca5059d42c8e48be2a933fa\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+50
+51        <provider
+51-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1226c38d4a00a9a89881048296bdcb58\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+52            android:name="com.google.firebase.provider.FirebaseInitProvider"
+52-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1226c38d4a00a9a89881048296bdcb58\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+53            android:authorities="com.example.sis.firebaseinitprovider"
+53-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1226c38d4a00a9a89881048296bdcb58\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+54            android:exported="false"
+54-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1226c38d4a00a9a89881048296bdcb58\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+55            android:initOrder="100" />
+55-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1226c38d4a00a9a89881048296bdcb58\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+56
+57        <meta-data
+57-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c0add763b213569f5b239f423709d713\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+58            android:name="com.google.android.gms.version"
+58-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c0add763b213569f5b239f423709d713\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+59            android:value="@integer/google_play_services_version" />
+59-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c0add763b213569f5b239f423709d713\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+60
+61        <provider
+61-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+62            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+63            android:authorities="com.example.sis.lifecycle-process"
+63-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+64            android:exported="false"
+64-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+65            android:multiprocess="true" />
+65-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+66    </application>
+67
+68</manifest>

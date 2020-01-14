@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Gestion Absence</string>
+    <string name="main_title">Gestion Absence</string>
+    <string name="login_title">Gestion Absence</string>
+    <string name="login">Login</string>
+    <string name="username">Login</string>
+    <string name="password">Mot de passe</string>
+
+    <string name="ar_univ_name"></string>
+    <string name="en_univ_name">Gestion Absence</string>
+
+    <string name="registration">Registration</string>
+    <string name="grades">Student Grades</string>
+    <string name="fees">Student Fees</string>
+
+    <string name="plan">Student Plan</string>
+    <string-array name="plan_schools">
+        <item value="1">University Requirements/ Elective</item>
+        <item value="2">Mandatory Specialization Requirements</item>
+        <item value="3">Foundation Program Requirements</item>
+        <item value="4">Faculty Requirements/ Electives</item>
+        <item value="5">University Requirements/ Mandatory</item>
+        <item value="6">Faculty Requirements/ Mandatory</item>
+    </string-array>
+    <string-array name="plan_types">
+        <item value="1">All</item>
+        <item value="2">Completed Courses</item>
+        <item value="3">Registered Courses</item>
+        <item value="4">Not Completed Courses</item>
+    </string-array>
+
+    <string name="timetable">Semester Time Table</string>
+    <string-array name="centers">
+        <item value="1">Riyadh</item>
+        <item value="2">Jeddah</item>
+        <item value="3">Ahsa</item>
+        <item value="4">Hail</item>
+        <item value="5">Madinah</item>
+        <item value="6">Dammam</item>
+    </string-array>
+
+    <string name="support">Student Support</string>
+
+    <string name="semester_prompt">Choose a semester</string>
+
+    <string-array name="semester_arrays">
+        <item value="1">First Semester</item>
+        <item value="2">Second Semester</item>
+        <item value="3">Summer Semester</item>
+    </string-array>
+    <string name="title_activity_support">Support</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <string name="ficheappel">FICHE D\'APPEL</string>
+    <string name="consultabsences">CONSULTER ABSENCE</string>
+    <string name="consultdemandes">CONSULTER LES DEMANDES</string>
+    <string name="ajouteretudient">AJOUTER ETUDIANT</string>
+    <string name="logout">Déconeter</string>
+
+    <string name="profile">Profile</string>
+    <string name="ar_name">Full Name (Arabic)</string>
+    <string name="en_name">Full Name (English)</string>
+    <string name="ar_program">Program Name (Arabic)</string>
+    <string name="en_program">Program Name (English)</string>
+    <string name="email">Email</string>
+    <string name="civilID">Civil ID</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="adresse">Home Adresse</string>
+
+</resources>
